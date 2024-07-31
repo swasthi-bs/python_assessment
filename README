@@ -1,0 +1,38 @@
+                            Python Script Execution in VS Code
+
+This README provides instructions on how to set up and execute a Python script using Visual Studio Code (VS Code)
+
+Pre-requisites:
+    1.	Visual Studio Code: Ensure that VS Code is installed on your system. You can download it from Visual Studio Code's official website.
+    2.	Python: Install Python3 if it's not already installed. Download it from Python's official website. Make sure python is added to your system's PATH during installation.
+    3.	Python Extension for VS Code: Install the Python extension for VS Code. This extension provides support for python development, including code linting and debugging.
+
+Setup Instructions
+    1.	Clone this repository to the desired location 
+    2.	Open the project in VS Code:
+        •   Launch VS Code.
+        •	Open project folder by navigating to File > Open Folder and select project directory
+    3.	Open the VS Code bash terminal and then execute below commands
+        •	To run the python script, execute - python format_paragraph.py
+        •	To run unit test cases, execute - python unit_test_format_paragraph.py
+
+Sample input values:
+
+Paragraph: Paragraph justification aligns text evenly between margins. Left justified will align text to the left and right justified will align text to the right
+
+Page Width: 20
+
+Output Format:
+
+Array [0]  = "Paragraph           "
+Array [1]  = "justification aligns"
+Array [2]  = "text evenly  between"
+Array [3]  = "margins.        Left"
+Array [4]  = "justified will align"
+Array [5]  = "text to the left and"
+Array [6]  = "right justified will"
+Array [7]  = "align  text  to  the"
+Array [8]  = "right               "
+
+
+
